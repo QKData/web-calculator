@@ -6,7 +6,7 @@ body {
 #container {
     border: 10px solid rgb(61, 58, 58);
     width: 400px;
-    height: 600px;
+    height: auto;
     display: flex;
     flex-direction: column;
     border-radius: 5px;
@@ -24,6 +24,7 @@ body {
     align-items: flex-end;
     justify-content: flex-end;
     flex-wrap: wrap;
+    padding-right: 5px;
 }
 
 #btn {
