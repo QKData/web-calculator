@@ -41,8 +41,8 @@ function operate(op, a, b) {
 
 // Create function update display
 function updateDisplay(value) {
-    if (value.toString().length > 12) {
-        value = Number(value).toExponential(6);
+    if (value.toString().length > 9) {
+        return;
     }
     display.textContent = value;
 }
@@ -165,10 +165,10 @@ document.addEventListener('keydown', (e) => {
     } else if (key === '+' || key === '-') {
         handleOperator(key);
     } else if (key === '*') {
-        handleOperator('×');
+        handleOperator('x');
     } else if (key === '/') {
         e.preventDefault();
-        handleOperator('÷');
+        handleOperator('/');
     } else if (key === 'Enter' || key === '=') {
         handleEquals();
     } else if (key === 'Backspace') {
