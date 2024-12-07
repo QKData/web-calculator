@@ -42,6 +42,10 @@ button {
     font-size: 32px;
 }
 
+button:hover {
+    background-color: #888;
+}
+
 #sp {
     width: 200px;
 }
