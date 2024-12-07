@@ -54,3 +54,7 @@ button:hover {
 #btnac, #backspace {
     background-color: chocolate;
 }
+
+#btnac:hover, #backspace:hover {
+    background-color: #888;
+}
